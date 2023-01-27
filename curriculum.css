@@ -1,11 +1,63 @@
 *
 {
     box-sizing: border-box;
-    color: auto;
+    margin: 0;
+    padding: 0;
+    color: #14000b;
 }
 
-.inicio
+html 
 {
-    background: linear-gradient(to right, #a11e66,rgb(189, 7, 37));
-    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+#fotoPrincipal
+{
+    display: left;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: solid 3px #740542 ;
+    margin: 20px 30px 0 15px;
+    padding: 3px 3px 3px 3px;
+    
+}
+
+.inicio 
+{
+    background: linear-gradient(to right bottom,#a11e66,pink);
+    height: auto;
+    position: auto;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.inicio .header
+{
+    margin-top: auto;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 2fr 5fr;
+}
+
+.inicio .header .columnaDerecha h1 a
+{
+    text-decoration: none;
+    font-size: 40px;
+    max-width: 900px;
+    text-align: justify;
+}
+
+/* linea de abajo del nombre*/
+
+.linea
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: #14000b solid 3px;
+    max-width: 550px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
 }
