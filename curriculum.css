@@ -1,0 +1,11 @@
+*
+{
+    box-sizing: border-box;
+    color: auto;
+}
+
+.inicio
+{
+    background: linear-gradient(to right, #a11e66,rgb(189, 7, 37));
+    height: 100vh;
+}
