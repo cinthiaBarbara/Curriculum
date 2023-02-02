@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     color: #14000b;
+    text-align: justify;
+    font-family: 'Lora', serif;
 }
 
 html 
@@ -13,32 +15,27 @@ html
 
 #fotoPrincipal
 {
-    display: left;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     border: solid 3px #740542 ;
     margin: 20px 30px 0 15px;
     padding: 3px 3px 3px 3px;
-    
+
 }
 
 .inicio 
 {
-    background: linear-gradient(to right bottom,#a11e66,pink);
+    background: linear-gradient(to right,#a11e66,pink);
     height: auto;
-    position: auto;
     padding-bottom: 10px;
-    position: fixed;
     width: 100%;
 }
 
 .inicio .header
 {
-    margin-top: auto;
-    display: grid;
+    display: flex;
     margin: auto;
-    grid-template-columns: 2fr 5fr;
 }
 
 .inicio .header .columnaDerecha h1 a
@@ -47,6 +44,12 @@ html
     font-size: 40px;
     max-width: 900px;
     text-align: justify;
+    text-decoration: none;
+    color: #14000b;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 /* linea de abajo del nombre*/
@@ -57,7 +60,214 @@ html
     margin-bottom: 20px;
     border-top: #14000b solid 3px;
     max-width: 550px;
-    display: flex;
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.inicio .header .columnaDerecha h2
+{
+    letter-spacing: 0.2em;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.experiencia 
+{
+    background: linear-gradient(to left,#a11e66,pink);
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.experiencia .trabajos h2
+{
+    position: block;
+    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+.experiencia .columnaIzquierda
+{
+    margin: 0 10px 0 10px;
+    background: linear-gradient(to top, white,pink);
+    display: flex;
+    max-width: 100%;
+}
+
+.experiencia .trabajos #queHago
+{
+    padding-right: 100px;
+    font-weight: 700;
+    max-width: 100%;
+    font-size: 20px;
+
+}
+
+.experiencia .columnaIzquierda #donde
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.experiencia .columnaIzquierda h4
+{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.contacto .trabajos ul
+{
+    text-decoration: none;
+}
+
+.experiencia .columnaIzquierda #donde a
+{
+    text-decoration: none;
+    color: #14000b;
+    font-size: 15px;
+}
+
+.experiencia .columnaIzquierda #donde ul
+{
+    list-style: none;
+}
+
+.experiencia .columnaIzquierda2 #donde ul
+{
+    list-style: none;
+}
+
+.experiencia .trabajos h3
+{
+    position: block;
+    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+#barra-progreso
+{
+    background:#14000b;
+    height: 10px;
+    width: 100px;
+    margin-top: 10px;
+    display: grid;
+}
+
+#progreso1
+{
+    background: linear-gradient(to left,#a11e66,pink);
+    height: 10px;
+    width: 76px;
+}
+
+#progreso2
+{
+    background: linear-gradient(to left,#a11e66,pink);
+    height: 10px;
+    width: 95px;
+}
+
+#progreso3
+{
+    background: linear-gradient(to left,#a11e66,pink);
+    height: 10px;
+    width: 50px;
+}
+
+#progreso4
+{
+    background: linear-gradient(to left,#a11e66,pink);
+    height: 10px;
+    width: 70px;
+}
+
+.experiencia .habilidades2
+{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin: 0 10px 0 10px;
+    background: linear-gradient(to top, white,pink);
+    display: flex;
+    max-width: 100%;
+}
+
+.experiencia .trabajos2 h2
+{
+    position: block;
+    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+.experiencia .trabajos2 h3
+{
+    position: block;
+    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.experiencia .columnaIzquierda2 #donde a
+{
+    text-decoration: none;
+    color: #14000b;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.experiencia .columnaIzquierda2
+{
+    margin: 0 10px 0 10px;
+    background: linear-gradient(to top, white,pink);
+    display: flex;
+    max-width: 100%;
+}
+
+.experiencia .trabajos3 h3
+{
+    position: block;
+    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.experiencia .columnaIzquierda2 #donde ul
+{
+    padding-bottom: 15px;
+    margin-top: 10px;
+    padding-right: 25px;
+}
+
+.experiencia .trabajos2 i
+{   
+    padding-bottom: 25px;
+}
+
+.experiencia .trabajos2 
+{
+    float: left;
+    position: flex;
+}
+
+/*.experiencia .trabajos3
+{
+}
+*/
